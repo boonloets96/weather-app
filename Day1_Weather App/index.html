@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button class="submit" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="error">
+            <p>invalid city name</p>
+        </div>
+
+        <section class="main">
+            <div class="main-img">
+                <img class="weather-icon" src="./images/clear.png" alt="">
+            </div>
+
+            <div class="main-temp">
+                <div class="temp-d-c">
+                    <h1 class="temp">22°C</h1>
+                </div>
+            </div>
+
+            <div class="main-city-name">
+                <div class="city-name">
+                    <h1 class="city">Chiang Mai</h1>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="ft-hum">
+                    <div class="ft-hum-num">
+                        <img src="./images/humidity.png" alt="" class="icon">
+                        <div class="ft-hum-text">
+                            <h3 class="num">53%</h3>
+                            <span class="ft-text">Humidity</span>
+                        </div>
+                    </div>      
+                </div>
+    
+                <div class="ft-winds">
+                    <div class="ft-winds-num">
+                        <img src="./images/wind.png" alt="" class="icon">
+                        <div class="ft-winds-text">
+                            <h3 class="speed">5.66 km/h</h3>
+                            <span class="ft-text">Wind Speed</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
